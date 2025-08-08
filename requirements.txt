@@ -1,0 +1,72 @@
+# Flask 核心框架
+Flask==2.3.3
+Flask-SQLAlchemy==3.0.5
+Flask-Migrate==4.0.5
+Flask-CORS==4.0.0
+Flask-SocketIO==5.3.6
+Flask-JWT-Extended==4.5.3
+
+# 数据库驱动
+PyMySQL==1.1.0
+cryptography==41.0.4
+SQLAlchemy==2.0.21
+
+# Redis 缓存
+redis==4.6.0
+Flask-Caching==2.1.0
+
+# 任务队列
+celery==5.3.1
+
+# API 文档
+flask-restx==1.1.0
+flasgger==0.9.7.1
+
+# HTTP 请求
+requests==2.31.0
+httpx==0.24.1
+
+# 数据处理
+pandas==2.0.3
+numpy==1.24.3
+
+# 配置管理
+python-dotenv==1.0.0
+
+# 测试框架
+pytest==7.4.0
+pytest-flask==1.2.0
+pytest-cov==4.1.0
+
+# 代码质量
+flake8==6.0.0
+black==23.7.0
+
+# 类型检查
+mypy==1.5.1
+
+# 日志
+loguru==0.7.0
+
+# 工具库
+click==8.1.7
+Werkzeug==2.3.7
+bcrypt==4.0.1
+python-dateutil==2.8.2
+orjson==3.9.7
+markdown==3.4.4
+Pillow==10.0.0
+
+# 生产环境
+gunicorn==21.2.0
+
+# AI模型相关（可选）
+openai==0.28.1
+marshmallow==3.20.1
+Werkzeug==2.3.7
+
+# WebSocket 支持
+python-socketio==5.8.0
+
+# 异步支持
+eventlet==0.33.3
